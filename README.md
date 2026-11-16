@@ -7,3 +7,5 @@
 - scripts/ — 取得と集計のスクリプト（udc_fetch.py / udc_analyze.py）。運用の詳細は Muse のスキル udc_awards が正本
 
 来年も同じ形で作る：新しい審査結果が出たら DB に年を足し、その年の重点分野で focus を1本書く。
+
+位置づけ：この repo は企画にとっての**外発的な要因**（受賞の力学という外の環境）。対になる内発的な要因は bonsai/neo-minyo-land で、企画はこの2つでドライブされる。
