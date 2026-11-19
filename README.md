@@ -15,3 +15,9 @@
 「データをつくる」から「データで人が動く」へ。neo-minyo-land と共有する理念。
 UDC の受賞作の読み解きでも、評価の物差しは「データが公開されたか」ではなく「人の認識と行動が変わったか」に置く。
 行動変容の5段（知る → 気づく → 考える → 行動する → 変えていく）は neo-minyo-land の STRATEGY.md に正本がある。
+
+## 公開サイト
+
+- [UDC Analysis — GitHub Pages](https://bonsai.github.io/udc-analysis/)
+- トップページは `index.html`。分析レポートとCSV/JSONデータへの入口を提供する。
+- GitHub Pagesはリポジトリ設定で有効。公開反映にはGitHub Pages側のビルド・デプロイ完了を待つ。
