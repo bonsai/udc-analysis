@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="アーバンデータチャレンジ受賞作品のデータと分析。2015–2025年、298件。">
+<title>UDC Analysis — 受賞作から、地域の未来を読む</title>
+<style>
+:root{color-scheme:light;--ink:#17251f;--muted:#65736c;--paper:#f6f7f2;--card:#fff;--line:#dfe5dc;--accent:#246b50;--accent2:#e6f1e9}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.7}
+a{color:var(--accent);text-underline-offset:3px}.wrap{max-width:1080px;margin:auto;padding:28px 22px 64px}
+header{padding:54px 0 38px;border-bottom:1px solid var(--line)}.eyebrow{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
+h1{font-size:clamp(2.3rem,6vw,4.6rem);line-height:1.08;letter-spacing:-.055em;margin:14px 0}.lead{font-size:1.15rem;color:var(--muted);max-width:700px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:26px 0 44px}.stat,.panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}.stat strong{display:block;font-size:2.2rem;line-height:1.2;letter-spacing:-.04em}.stat span{color:var(--muted);font-size:.9rem}
+h2{font-size:1.55rem;letter-spacing:-.03em;margin:42px 0 14px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.panel h3{margin:0 0 8px;font-size:1.1rem}.panel p{margin:0;color:var(--muted)}.pill{display:inline-block;background:var(--accent2);color:var(--accent);padding:3px 9px;border-radius:999px;font-size:.78rem;font-weight:700;margin-bottom:10px}
+ul{padding-left:1.2rem}.links{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}.links a{display:inline-block;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:white;text-decoration:none;font-weight:650}
+.note{padding:18px 20px;background:var(--accent2);border-radius:14px;color:#254b38}footer{margin-top:54px;border-top:1px solid var(--line);padding-top:18px;color:var(--muted);font-size:.88rem}
+@media(max-width:650px){.stats{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.wrap{padding-inline:17px}header{padding-top:35px}}
+</style>
+</head>
+<body><main class="wrap">
+<header>
+<div class="eyebrow">Urban Data Challenge · Open Analysis</div>
+<h1>受賞作から、<br>地域の未来を読む。</h1>
+<p class="lead">アーバンデータチャレンジ（UDC）の受賞作品をデータとして蓄積し、評価されるテーマ、実装の型、地域課題へのアプローチを読み解く分析プロジェクトです。</p>
+<div class="links"><a href="analysis/insights-2015-2025.md">全期間インサイト分析 ↗</a><a href="analysis/focus-2026-transport-education.md">2026重点分野分析 ↗</a></div>
+</header>
+<section class="stats" aria-label="分析対象">
+<div class="stat"><strong>298</strong><span>受賞作品</span></div>
+<div class="stat"><strong>2015–2025</strong><span>分析対象年</span></div>
+<div class="stat"><strong>11年</strong><span>継続的な蓄積</span></div>
+</section>
+<h2>分析から見えてきたこと</h2>
+<div class="grid">
+<article class="panel"><span class="pill">01 · アプリケーション</span><h3>形にして届ける</h3><p>受賞作のタイプではアプリケーションが最大。データを公開するだけでなく、使う人の行動に届く道具が重要です。</p></article>
+<article class="panel"><span class="pill">02 · 文化・アーカイブ</span><h3>記録すること自体が価値になる</h3><p>生活・文化・地域アーカイブは主要テーマの一つ。消えゆく記憶や地域資源を、使える形で残す取り組みが評価されています。</p></article>
+<article class="panel"><span class="pill">03 · 可視化</span><h3>見えなかったものを見せる</h3><p>地図、3D、ダッシュボードなど、地域に埋もれた情報を見える形に変えるアプローチが繰り返し登場します。</p></article>
+<article class="panel"><span class="pill">04 · 市民参加</span><h3>参加がデータを育てる</h3><p>遊びや地域活動を通じて、市民が情報を補い、データが次の行動を生む循環に注目しています。</p></article>
+</div>
+<h2>データと分析資料</h2>
+<div class="panel">
+<h3>受賞作データベース</h3>
+<p>公式審査結果ページを出典として収集した受賞作データです。分析スクリプトとともにGitHubで公開しています。</p>
+<div class="links"><a href="data/udc_awards.csv">CSVをダウンロード</a><a href="data/udc_awards.json">JSONをダウンロード</a><a href="https://github.com/bonsai/udc-analysis">GitHubリポジトリ ↗</a></div>
+</div>
+<h2>この分析の立ち位置</h2>
+<div class="note"><strong>データをつくる、から。データで人が動く、へ。</strong><br>受賞傾向を知ること自体が目的ではありません。評価された取り組みから学び、地域の人の認識と行動を変える企画につなげることを目指します。</div>
+<h2>方法と限界</h2>
+<ul><li>対象は公式審査結果ページから取得した2015〜2025年の受賞作298件です。</li><li>テーマ・タイプの公式分類が存在しない年があるため、集計対象件数は項目ごとに異なります。</li><li>クラスタ分析にはタイトルのキーワード一致による分類が含まれ、境界事例があります。</li><li>分析結果は傾向把握のためのもので、受賞を予測・保証するものではありません。</li></ul>
+<footer>UDC Analysis · <a href="https://github.com/bonsai/udc-analysis">bonsai/udc-analysis</a><br>データの出典・取得方法・更新履歴はリポジトリを参照してください。</footer>
+</main></body></html>
